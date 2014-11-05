@@ -1,0 +1,30 @@
+{
+  "name": "nor-timezones",
+  "version": "0.1.0",
+  "description": "Exports static array of timezones",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./utils/build-timezones.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sendanor/nor-timezones.git"
+  },
+  "keywords": [
+    "timezones",
+    "timezone"
+  ],
+  "author": "Jaakko-Heikki Heusala <jheusala@iki.fi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sendanor/nor-timezones/issues"
+  },
+  "devDependencies": {
+    "timezone" : ">= 0.0.38 < 0.1.0",
+    "nor-fs"   : ">= 0.1.11 < 0.2.0",
+    "q"        : ">= 1.0.1  < 1.1.0"
+  },
+  "homepage": "https://github.com/sendanor/nor-timezones"
+}
