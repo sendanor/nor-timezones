@@ -1,6 +1,6 @@
 {
   "name": "nor-timezones",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Exports static array of timezones",
   "main": "dist/index.js",
   "scripts": {
